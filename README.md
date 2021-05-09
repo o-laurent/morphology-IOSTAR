@@ -16,7 +16,7 @@ Moreover, the following packages are also necessary:
 
 ### Images
 
-Please add a images_IOSTAR folder at the root of the folder.
+Please add a images_IOSTAR folder at the root of the folder with the images number 1, 2, 3, 8, 21, 26, 28, 32, 37, 48 and their annotations.
 
 ## The contents of this folder
 
@@ -44,7 +44,7 @@ The main script, [segmentation](segmentation.py), contains the segmentation func
 
 ## How to use this script
 
-To use this script, use the boolean and float variables of script_hysteresis.py, then lauch this script. They start on line 190.
+To use this script, use the boolean and float variables of script_hysteresis.py, then launch this script **from the inside of the folder** (since it uses relative paths). They start on line 190.
 
 if `do_optimize` is True, you will try to find the best parameters
 
