@@ -20,7 +20,7 @@ Please add a images_IOSTAR folder at the root of the folder.
 
 ## The contents of this folder
 
-This folder contains two utility files, [utils](utils.py) and [morphology_utils](morphology_utils.py).
+This folder contains two utility files, [utils](utils.py) and [morphology_utils](morphology_utils.py). The main module is [segmentation](segmentation.py). Old optimization functions are in the [optimizers](optimizers.py) module.
 
 ### [utils](utils.py)
 
@@ -37,6 +37,10 @@ This folder contains two utility files, [utils](utils.py) and [morphology_utils]
 - algebraic_opening: performs an algebraic opening of an image
 - conjugate_tophats: performs a sum of conjugate top-hats of an image
 - erosion_reconstruction: performs an algebraic erosion of an image followed by a reconstruction
+
+### [segmentation](segmentation.py)
+
+The main script, [segmentation](segmentation.py), contains the segmentation function and the optimization function as well as variables for user interactions.
 
 ## How to use this script
 
